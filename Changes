@@ -1,0 +1,4 @@
+[version "0.1.0"]
+date = Sat Oct 15 03:42:33 PM PDT 2022
+done = Add a test to check all ini:* functions
+done = Initial commit
