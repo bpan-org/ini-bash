@@ -6,7 +6,7 @@ api-version = 1
 # Required package info:
 [package]
 name = ini
-version = 0.1.0
+version = 0.1.1
 title = Read and write to INI files from Bash
 license = MIT
 copyright = 2022
