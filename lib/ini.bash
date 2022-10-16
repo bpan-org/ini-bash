@@ -1,3 +1,5 @@
+ini:version() ( echo "0.1.1" )
+
 ini:init() {
   __ini_files=("$@")
   __ini_from=''
