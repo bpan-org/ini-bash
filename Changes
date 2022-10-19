@@ -1,3 +1,8 @@
+[version "0.1.2"]
+date = Wed Oct 19 11:47:13 AM PDT 2022
+done = Add ability to expand predefined variables
+done = Add ini:version function
+
 [version "0.1.1"]
 date = Sun Oct 16 11:48:53 AM PDT 2022
 done = Put bpan config in Meta file
