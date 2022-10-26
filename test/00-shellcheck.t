@@ -17,14 +17,14 @@ while read -r file; do
   if [[ $file == *.bash ]] ||
      [[ $shebang == '#!'*[/\ ]bash ]]
   then
-    ok "$(shellcheck -s bash -e "$skip" "$file")" \
+    ok "$(shellcheck -e "$skip" "$file")" \
       "Bash file '$file' passes shellcheck"
 
   elif
     [[ $file == *.sh ]] ||
     [[ $shebang == '#!'*[/\ ]sh ]]
   then
-    ok "$(shellcheck -s sh -e "$skip" "$file")" \
+    ok "$(shellcheck -e "$skip" "$file")" \
       "Shell script file '$file' passes shellcheck"
   fi
 done < <(
