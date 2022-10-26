@@ -1,4 +1,4 @@
-ini:version() ( echo "0.1.2" )
+ini:version() ( echo "0.1.3" )
 
 ini:init() {
   __ini_files=("$@")
