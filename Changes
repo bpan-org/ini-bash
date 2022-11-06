@@ -1,3 +1,7 @@
+[version "0.1.5"]
+date = Sun Nov  6 11:31:41 AM PST 2022
+done = Support INI_DEBUG_BASH_X
+
 [version "0.1.4"]
 date = Thu Nov  3 08:04:26 AM PDT 2022
 done = Call ini:init with no args to re-read configs
