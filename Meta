@@ -1,12 +1,12 @@
 # Configuration for the 'ini-bash' BPAN package.
 
 [bpan]
-api-version = 1
+version = 0.1.6
 
 # Required package info:
 [package]
 name = ini
-version = 0.1.5
+version = 0.1.6
 title = Read and write to INI files from Bash
 license = MIT
 copyright = 2022
