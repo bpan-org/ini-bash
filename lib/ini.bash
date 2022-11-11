@@ -20,9 +20,10 @@ ini:vars() {
   __ini_vars=("$@")
 }
 
-ini:get() (
+ini:get() {
   local set=$-
   set "${INI_DEBUG_BASH_X:-+x}"
+  local __ini_files=("${__ini_files[@]}")
   local args i key value var val
   ini:data "$@"
   [[ ${#args[*]} -gt 0 ]] ||
@@ -51,11 +52,12 @@ ini:get() (
   done
   [[ $set != *x* ]] || set -x
   return 1
-)
+}
 
 ini:set() {
   local set=$-
   set "${INI_DEBUG_BASH_X:-+x}"
+  local __ini_files=("${__ini_files[@]}")
   local args i file
   ini:data "$@"
   [[ ${#args[*]} -eq 2 ]] ||
@@ -71,6 +73,7 @@ ini:set() {
 ini:add() {
   local set=$-
   set "${INI_DEBUG_BASH_X:-+x}"
+  local __ini_files=("${__ini_files[@]}")
   local args i file
   ini:data "$@"
   [[ ${#args[*]} -eq 2 ]] ||
