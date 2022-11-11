@@ -1,3 +1,7 @@
+[version "0.1.7"]
+date = Fri Nov 11 07:56:27 AM PST 2022
+done = Fix bug with ini globals
+
 [version "0.1.6"]
 date = Fri Nov 11 07:22:13 AM PST 2022
 done = Change main functions to not use subshell
