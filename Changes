@@ -1,3 +1,7 @@
+[version "0.1.8"]
+date = Thu Nov 17 10:20:53 PM PST 2022
+done = Update config to new format
+
 [version "0.1.7"]
 date = Fri Nov 11 07:56:27 AM PST 2022
 done = Fix bug with ini globals
