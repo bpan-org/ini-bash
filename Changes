@@ -1,3 +1,7 @@
+[version "0.1.11"]
+date = Mon Dec  5 12:50:00 PM PST 2022
+done = Fix config
+
 [version "0.1.10"]
 date = Mon Dec  5 12:34:31 PM PST 2022
 done = Fix package.name inb .bpan/config
