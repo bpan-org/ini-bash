@@ -1,9 +1,9 @@
 [bpan]
-version = 0.1.80
+version = 0.1.91
 
 [package]
 name = ini
-version = 0.1.8
+version = 0.1.9
 title = Read and write to INI files from Bash
 license = MIT
 copyright = 2022

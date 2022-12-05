@@ -1,4 +1,4 @@
-ini:version() ( echo "0.1.8" )
+ini:version() ( echo "0.1.9" )
 
 ini:init() {
   if [[ $# -gt 0 ]]; then
