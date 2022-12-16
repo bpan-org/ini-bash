@@ -8,7 +8,7 @@ version = 0.1.12
 title = Read and write to INI files from Bash
 license = MIT
 copyright = 2022
-tag = bash config ini
+type = bash-lib
 
 bug = https://github.com/bpan-org/ini-bash/issues/
 irc = irc.libera.chat/bpan
