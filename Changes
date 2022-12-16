@@ -1,3 +1,7 @@
+[version "0.1.13"]
+date = 2022-12-15T19:31:41Z
+done = Add type to .bpan/config
+
 [version "0.1.12"]
 date = 2022-12-13-13-00-59
 done = Config changes
