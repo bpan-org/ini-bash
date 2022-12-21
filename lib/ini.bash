@@ -22,7 +22,6 @@ ini:vars() {
 
 ini:get() {
   local set=$-
-  set "${INI_DEBUG_BASH_X:-+x}"
   local __ini_files=("${__ini_files[@]}")
   local args i key value var val
   ini:data "$@"
@@ -56,7 +55,6 @@ ini:get() {
 
 ini:set() {
   local set=$-
-  set "${INI_DEBUG_BASH_X:-+x}"
   local __ini_files=("${__ini_files[@]}")
   local args i file
   ini:data "$@"
@@ -72,7 +70,6 @@ ini:set() {
 
 ini:add() {
   local set=$-
-  set "${INI_DEBUG_BASH_X:-+x}"
   local __ini_files=("${__ini_files[@]}")
   local args i file
   ini:data "$@"
@@ -87,7 +84,6 @@ ini:add() {
 }
 
 ini:all() (
-  set "${INI_DEBUG_BASH_X:-+x}"
   ini:data "$@"
   [[ ${#args[*]} -eq 1 ]] ||
     ini:die "ini:all requires 1 key"
@@ -95,7 +91,6 @@ ini:all() (
 )
 
 ini:list() (
-  set "${INI_DEBUG_BASH_X:-+x}"
   ini:data "$@"
   git config --file <(cat "${__ini_files[@]?}") --list |
     LC_ALL=C sort
@@ -144,7 +139,6 @@ ini:untab() {
 }
 
 ini:die() {
-  set "${INI_DEBUG_BASH_X:-+x}"
   printf '%s\n' "$@" >&2
   exit 1
 }
