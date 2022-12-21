@@ -1,3 +1,7 @@
+[version "0.1.14"]
+date = 2022-12-21T18:23:59Z
+done = Remove INI_DEBUG_BASH_X support
+
 [version "0.1.13"]
 date = 2022-12-15T19:31:41Z
 done = Add type to .bpan/config
