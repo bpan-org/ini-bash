@@ -1,3 +1,8 @@
+[version "0.1.15"]
+date = 2022-12-30T17:29:12Z
+done = Refactor the 'set -x' code
+done = Revert "Remove INI_DEBUG_BASH_X support"
+
 [version "0.1.14"]
 date = 2022-12-21T18:23:59Z
 done = Remove INI_DEBUG_BASH_X support
