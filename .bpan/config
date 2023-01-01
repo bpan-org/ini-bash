@@ -3,14 +3,13 @@ version = 0.1.105
 updated = 2022-12-30T17:29:13Z
 
 [package]
-name = ini-bash
+id = github:bpan-org/ini-bash
 version = 0.1.15
 title = Read and write to INI files from Bash
 license = MIT
-copyright = 2022
-type = bash-lib
+copyright = 2022-2023
+type = bash:lib
 
-bug = https://github.com/bpan-org/ini-bash/issues/
 irc = irc.libera.chat/bpan
 
 [author "github:ingydotnet"]
@@ -18,6 +17,9 @@ name = Ingy döt Net
 email = ingy@ingy.net
 irc = ingy@irc.libera.chat
 matrix = @ingy:yaml.io
+
+[require "command"]
+git = 2.9+
 
 [update]
 file = test/00-shellcheck.t
