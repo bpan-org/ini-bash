@@ -1,3 +1,8 @@
+[version "0.1.16"]
+date = 2023-01-01T12:38:19Z
+done = Update .bpan/config
+done = Format empty values with double quotes ("")
+
 [version "0.1.15"]
 date = 2022-12-30T17:29:12Z
 done = Refactor the 'set -x' code
